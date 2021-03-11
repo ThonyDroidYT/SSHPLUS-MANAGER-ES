@@ -482,6 +482,9 @@ case "$x" in
    19)
    menu2
    ;;
+   20)
+   funcao_idioma
+   ;;
    0 | 00)
    echo -e "\033[1;31mSaindo...\033[0m"
    sleep 2
