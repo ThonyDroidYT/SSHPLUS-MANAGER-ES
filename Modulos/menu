@@ -78,6 +78,61 @@ else
  echo "${texto[$2]}"
 fi
 }
+selection_fun () {
+local selection="null"
+local range
+for((i=0; i<=$1; i++)); do range[$i]="$i "; done
+while [[ ! $(echo ${range[*]}|grep -w "$selection") ]]; do
+echo -ne "\033[1;37m$(fun_trans "Selecione una Opción"): 》" >&2
+read selection
+tput cuu1 >&2 && tput dl1 >&2
+done
+echo $selection
+}
+funcao_idioma () {
+tput cuu1 && tput dl1
+msg -bar2
+declare -A idioma=( [1]="en English" [2]="fr Franch" [3]="de German" [4]="it Italian" [5]="pl Polish" [6]="es Spanish" [7]="pt Portuguese" [8]="tr Turkish" [9]="in Indonesian" )
+for ((i=1; i<=12; i++)); do
+valor1="$(echo ${idioma[$i]}|cut -d' ' -f2)"
+[[ -z $valor1 ]] && break
+valor1="\033[1;32m[$i] > \033[1;33m$valor1"
+    while [[ ${#valor1} -lt 37 ]]; do
+       valor1=$valor1" "
+    done
+echo -ne "$valor1"
+let i++
+valor2="$(echo ${idioma[$i]}|cut -d' ' -f2)"
+[[ -z $valor2 ]] && {
+   echo -e " "
+   break
+   }
+valor2="\033[1;32m[$i] > \033[1;33m$valor2"
+     while [[ ${#valor2} -lt 37 ]]; do
+        valor2=$valor2" "
+     done
+echo -ne "$valor2"
+let i++
+valor3="$(echo ${idioma[$i]}|cut -d' ' -f2)"
+[[ -z $valor3 ]] && {
+   echo -e " "
+   break
+   }
+valor3="\033[1;32m[$i] > \033[1;33m$valor3"
+     while [[ ${#valor3} -lt 37 ]]; do
+        valor3=$valor3" "
+     done
+echo -e "$valor3"
+done
+msg -bar2
+unset selection
+while [[ ${selection} != @([1-9]) ]]; do
+echo -ne "\033[1;37m$(fun_trans "Selecione a Opción"):》 " && read selection
+tput cuu1 && tput dl1
+done
+[[ -e /etc/texto-sshplus ]] && rm /etc/texto-sshplus
+echo "$(echo ${idioma[$selection]}|cut -d' ' -f1)" > ${SCPidioma}
+}
 fun_tst () {
 speedtest --share > speed
 }
