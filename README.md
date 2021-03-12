@@ -2,7 +2,7 @@
 ```
 * UPDATE 17/02/2021 - PROYECTO FINALIZADO
 ```
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/SSHPLUS_MANAGER.jpg)
+![logo](https://github.com/ThonyDroid/SSHPLUS-MANAGER-ES/blob/master/Imagenes/SSHPLUS_MANAGER.jpg)
 
 
 ```
@@ -24,7 +24,7 @@ SCRIPT SSHPLUS MANAGER es un script con un conjunto de características y herram
 
 ## Installation
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus; chmod 777 Plus; ./Plus
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Plus; chmod 777 Plus; ./Plus
 
 * SI NECESITAN REINSTALAR EL SCRIPTS PUEDEN EJECUTAR EL COMANDO: ( sshplus )
 
@@ -36,7 +36,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AA
 ## Installation
 
 apt-get update -y; apt-get upgrade -y; 
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Sistema/Plus; 
+wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Install/Sistema/Plus; 
 chmod 777 Plus; ./Plus
 
 * SI NECESITAN REINSTALAR EL SCRIPTS PUEDEN EJECUTAR EL COMANDO: ( sshplus )
@@ -45,7 +45,7 @@ chmod 777 Plus; ./Plus
 
 ## GENERADOR DE KEY SSHPLUS MANAGER
 
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/GENERADOR-SSHPLUS-MANAGER.png)
+![logo](https://github.com/ThonyDroid/SSHPLUS-MANAGER-ES/blob/master/Imagenes/GENERADOR-SSHPLUS-MANAGER.png)
 
 * Un sistema operativo basado en Linux (Ubuntu o Debian)
 * Se recomienda usar una distro nueva o formatiada
@@ -53,7 +53,7 @@ chmod 777 Plus; ./Plus
 
 ## Installation Server
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Generador/instala_server; chmod 777 instala_server* && ./instala_server*
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Install/Generador/instala_server; chmod 777 instala_server* && ./instala_server*
 
  ACCESO DIRECTO AL SCRIPTS EXECUTE EL COMANDO: keyssh
 
@@ -61,7 +61,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AA
 
 ## SCRIPT OFICIAL PAINEL SSHPLUS WEB VERSAO: 20 (Installation Directa)
 
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/Panel_SSHPLUS_v20.jpg)
+![logo](https://github.com/ThonyDroid/SSHPLUS-MANAGER-ES/blob/master/Imagenes/Panel_SSHPLUS_v20.jpg)
 
 ```
 PAINEL SSHPLUS es una herramienta completa de gestión y supervisión de usuarios que permite
@@ -72,17 +72,17 @@ PAINEL SSHPLUS es una herramienta completa de gestión y supervisión de usuario
 
 ## Installation
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v20/install; chmod +x install; ./install
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Install/Panel_Web/panel_v20/install; chmod +x install; ./install
 
 -------------------------------------------------------------------------------
 
 # PAINEL SSHPLUS WEB (VERSIONES)
 
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/Panel_SSHPLUS_Web.jpg)
+![logo](https://github.com/ThonyDroid/SSHPLUS-MANAGER-ES/blob/master/Imagenes/Panel_SSHPLUS_Web.jpg)
 
 ## Installation
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/Panelweb.sh; chmod +x Panelweb.sh; ./Panelweb.sh
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Install/Panel_Web/Panelweb.sh; chmod +x Panelweb.sh; ./Panelweb.sh
 
 * ACCESO DIRECTO AL SCRIPTS EXECUTE EL COMANDO ( ipw )
 
@@ -90,11 +90,11 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AA
 
 # MULTI-INTALADOR SSHPLUS
 
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/Multi_Instalador_sshplus.png)
+![logo](https://github.com/ThonyDroid/SSHPLUS-MANAGER-ES/blob/master/Imagenes/Multi_Instalador_sshplus.png)
 
 ## Installation
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Multi-Instalador/sshplus.sh; chmod +x sshplus.sh; ./sshplus.sh
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Install/Multi-Instalador/sshplus.sh; chmod +x sshplus.sh; ./sshplus.sh
 
 * ACCESO DIRECTO AL SCRIPTS EXECUTE EL COMANDO ( mis )
 
@@ -102,11 +102,11 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AA
 
 # TCP-Tweaker-1.0 (TCP-SPEED)
 
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/TCP_Tweaker_TCP_SPEED.jpg)
+![logo](https://github.com/ThonyDroidYR/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/TCP_Tweaker_TCP_SPEED.jpg)
 
 ## Installation
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/tcptweaker.sh; chmod +x tcptweaker.sh; ./tcptweaker.sh
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ThonyDroid/SSHPLUS-MANAGER-ES/master/Install/tcptweaker.sh; chmod +x tcptweaker.sh; ./tcptweaker.sh
 
 -------------------------------------------------------------------------------
 
